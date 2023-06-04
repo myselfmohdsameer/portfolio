@@ -27,7 +27,7 @@ export default function Blog({ featuredArticle, articles, tags, tag }) {
       <div>
         <button
           onClick={() =>
-            handleArticleClicked(slugify(featuredArticle.title).toLowerCase())
+            handleArticleClicked(slugify(featuredArticle?.title).toLowerCase())
           }
           className="space-y-2 text-left hover:cursor-pointer group"
         >
@@ -55,15 +55,15 @@ export default function Blog({ featuredArticle, articles, tags, tag }) {
                   ></path>
                 </svg>
               </div>
-              <h2 className="my-4 text-4xl">{featuredArticle.title}</h2>
-              <p>{featuredArticle.summary}</p>
+              <h2 className="my-4 text-4xl">{featuredArticle?.title}</h2>
+              <p>{featuredArticle?.summary}</p>
             </div>
             <Image
               className="rounded-3xl group-hover:opacity-75"
               objectFit="fill"
-              src={featuredArticle.coverImage}
+              src={featuredArticle?.coverImage}
               placeholder="blur"
-              blurDataURL={featuredArticle.coverImage}
+              blurDataURL={featuredArticle?.coverImage}
               width={1200}
               height={684}
               layout="intrinsic"
