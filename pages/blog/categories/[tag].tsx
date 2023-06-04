@@ -122,7 +122,7 @@ export const getStaticProps: GetStaticProps = async ({
     blogArticles = blogArticles.filter((article) => article.isPublic === true);
   }
 
-  const featuredArticle = blogArticles[0];
+  const featuredArticle = blogArticles[0] || null;
 
   return {
     props: {
