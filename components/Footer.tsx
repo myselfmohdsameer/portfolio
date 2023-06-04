@@ -11,14 +11,10 @@ const navigation = {
     { name: 'Blog', href: '/blog' }
   ],
   specifics: [
-    { name: 'Stats', href: '/stats' },
-    { name: 'Community wall', href: '/community-wall' },
-    { name: 'Toolbox', href: '/toolbox' },
-    { name: 'Speaking', href: '/speaking' }
+    { name: 'Stats', href: '/stats' }
   ],
   extra: [
-    { name: 'Changelog', href: '/changelog' },
-    { name: 'Meet up', href: '/meetup' }
+    
   ],
   social: [
     {
