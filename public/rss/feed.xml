@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Mohd Sameer]]></title>
+        <description><![CDATA[Mohd Sameer]]></description>
+        <link>https://myselfmohdsameer.vercel.app</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 04 Jun 2023 09:57:14 GMT</lastBuildDate>
+        <atom:link href="https://myselfmohdsameer.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Integrating Notion with NextJS 13]]></title>
+            <description><![CDATA[The combination of Next.js and the Notion API provide a powerful solution to blogging!]]></description>
+            <link>https://myselfmohdsameer.vercel.app/blog/integrating-notion-with-nextjs-13</link>
+            <guid isPermaLink="true">https://myselfmohdsameer.vercel.app/blog/integrating-notion-with-nextjs-13</guid>
+            <pubDate>Sat, 25 Jun 2022 13:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
